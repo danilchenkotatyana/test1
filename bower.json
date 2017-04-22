@@ -1,0 +1,21 @@
+{
+  "name": "test1",
+  "description": "html+js+css apps",
+  "main": "gulpfile.js",
+  "authors": [
+    "Tatiana Danilchenko <danilchenkot@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+	  "normalize.css": "*",
+      "jquery": "^3.2.1"
+  }
+}
