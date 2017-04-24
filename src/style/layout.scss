@@ -1,0 +1,24 @@
+$text-color: #777879;
+
+@font-face {
+	font-family: "HelveticaNeue-Light";
+	src: url("font/HelveticaNeue-Light/HelveticaNeue-Light.eot?") format("eot"),
+	//url("font/HelveticaNeue-Light/HelveticaNeue-Light.woff2") format("woff2"),
+	url("font/HelveticaNeue-Light/HelveticaNeue-Light.woff") format("woff"),
+	url("font/HelveticaNeue-Light/HelveticaNeue-Light.ttf") format("truetype"),
+	url("font/HelveticaNeue-Light/HelveticaNeue-Light.svg#Samplino") format("svg");
+
+	font-family: "HelveticaNeue";
+	src: url("font/HelveticaNeue-Regular/HelveticaNeue.eot?") format("eot"),
+		//url("font/HelveticaNeue-Regular/HelveticaNeue.woff2") format("woff2"),
+	url("font/HelveticaNeue-Regular/HelveticaNeue.woff") format("woff"),
+	url("font/HelveticaNeue-Regular/HelveticaNeue.ttf") format("truetype"),
+	url("font/HelveticaNeue-Regular/HelveticaNeue.svg#Samplino") format("svg");
+}
+
+html {
+	font-size: 100%;
+	color: $text-color;
+	font-family: "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
